@@ -1,0 +1,17 @@
+## .NET build artifacts
+bin/
+obj/
+
+## Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+## SQLite database (generated at runtime via migrations)
+*.db
+*.db-shm
+*.db-wal
+
+## OS files
+.DS_Store
